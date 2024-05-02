@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INICIO DE SESION </title>
+  <link rel="stylesheet" href="css/estilos.css">
+  
+</head>
+<body>
+  <div class="container">
+    <form action="" class="form" id="form" autocomplete="off">
+      <p class="form-titulo">Inicio de Sesion</p>
+      <div class="form-input nombre">
+        <input type="text" id="nombre">
+        <label for="name">Nombre de usuario</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input contraseña">
+        <input type="text" id="contraseña">
+        <label for="pasword">contraseña</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-terminos terminos">
+        <input type="checkbox" id="terminos">
+        <label for="terminos">He leído, acepto los </label>
+        <a href="#">Términos y Condiciones</a>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-boton" >
+        <input type="submit" value="Iniciar Sesion">
+      </div>
+      <p class="mensajeCorrecto"></p>
+    </form>
+  </div>
+  <script src="js/form.js"></script>
+</body>
+
+</html>
